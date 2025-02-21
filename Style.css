@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc0cb; /* Pink background */
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1, button, #result {
+    font-weight: bold; /* Make everything bold */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.happy-sticker {
+    font-size: 50px;
+    color: #008000;
+}
+
+.sad-sticker {
+    font-size: 50px;
+    color: #ff0000;
+}
+
